@@ -130,10 +130,10 @@ ul{
     font-family: "Raleway";
     font-weight: 700;
     font-size: 18px;
-    /* line-height: 1.17; */
-    /* letter-spacing: 0.03em; */
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* color:#F4F4FD; */
+    color:#F4F4FD;
     
 }
 .footer .studio{color: #4D5AE5;}
