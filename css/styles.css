@@ -95,7 +95,7 @@ ul{
 
     /* section 3 */
 .team{
-        background-color:  #FFFFFF;
+        background-color:  #F4F4FD;
     }
 
 .team-all{
@@ -107,9 +107,9 @@ ul{
     text-transform: capitalize;
     color: #2E2F42;
 }
-/* .team-backgr{
+.team-backgr{
     background-color: #FFFFFF;
-} */
+}
 
 .team-title{
     font-weight: 500;
