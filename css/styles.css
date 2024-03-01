@@ -12,7 +12,7 @@ ul{
 }
 
 /* header logo */
-.logo{
+.navi{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -30,8 +30,8 @@ ul{
     color: #2e2f42;
 
 }
-.navigation .navi:hover,
-.navigation .navi:focus{
+.navigation .text-navi:hover,
+.navigation .text-navi:focus{
     color: #404bbf;
 }
 
