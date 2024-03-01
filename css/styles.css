@@ -11,23 +11,23 @@ ul{
     list-style-type: none;
 }
 
-/* header logo*/
-.navigation .logo{
-    font-family: "Raleway";
+/* header logo */
+.logo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #4d5ae5
 }
-.navigation .studio{color: #2E2F42;}
+.studio{color: #2e2f42;}
 
-.navigation .navi{
+.navigation{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 
 }
 .navigation .navi:hover,
