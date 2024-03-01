@@ -77,7 +77,7 @@ ul{
    
   
     /* section 2 */
-.title-text .title-text-title{
+.title-text{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; 
@@ -85,7 +85,7 @@ ul{
     color: #2E2F42;
     }
 
-.title-text .text-title-text{
+.text-title-text{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
@@ -107,13 +107,13 @@ ul{
     text-transform: capitalize;
     color: #2E2F42;
 }
-.team .name{
+/* .team .name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; 
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
+} */
 .team .work{
     font-weight: 400;
     font-size: 16px;
