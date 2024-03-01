@@ -85,11 +85,12 @@ ul{
     color: #2E2F42;
     }
 
-.text-title-text{
-    font-weight: 500;
+.text-text{
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
     }
 
@@ -98,7 +99,7 @@ ul{
         background-color: #F4F4FD;
     }
 
-.team .team-all{
+.team-all{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11; 
@@ -107,22 +108,9 @@ ul{
     text-transform: capitalize;
     color: #2E2F42;
 }
-/* .team .name{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; 
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-} */
-.team .work{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; 
-    letter-spacing: 2%;
-    text-align: center;
-    color: #434455;
-    background-color: #FFFFFF;
-}
+
+
+/* section 4 */
 
 /* section footer */
 .footer{
