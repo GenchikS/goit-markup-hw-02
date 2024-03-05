@@ -3,26 +3,41 @@ body{
     color: #434455;
     background-color: #ffffff;
    }
-
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 a{
     text-decoration: none;
 }
-ul{
-    list-style-type: none;
-}
 
+/* container content */
+
+.container-all{
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color:#cacbd4;
+    }
 /* header */
-.header{
-    display: flex;
-}
+.header-container{
+    width: 1440px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;}
+    
+
 .header-navi{
+    padding-left: 156px;
     display: flex;
 }
 .header-list{
-    margin-top: 0;
     margin-left: 76px;
-    padding-top: 24px;
-    margin-bottom: 24px;
     display: flex;
 }
 /* header logo */
@@ -32,9 +47,9 @@ ul{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-top: 24px;
+    /* padding-top: 24px;
     padding-left: 156px;
-    margin-bottom: 24px;
+    margin-bottom: 24px; */
     text-transform: uppercase;
     color: #4d5ae5
 }
@@ -51,17 +66,18 @@ ul{
 .text-navi:focus{
     color: #404bbf;
 }
+.navi-studio,
+.navi-portfolio,
+.navi-contacts{margin-left: 40px;
+}
+.adress{margin-left: 332px;}
+
 .address-navi{
-    margin-top: 0;
-    padding-top: 24px;
-    margin-left: 332px;
-    margin-bottom: 24px;
+    font-style: normal;
     display: flex;
 }
-.address{
-    font-style: normal;
-    }
-.address .contacts{
+
+.contacts{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5; 
@@ -72,8 +88,16 @@ ul{
 .contacts:focus{
     color:#404bbf;
 }
+.adress-mail{
+    margin-left: 250px;
+}
+.adress-tel{margin-left: 40px;}
+
 /* section 1 hero */
 .title{
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
     background-color: #2e2f42;
 }
 .title .hero{
