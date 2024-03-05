@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
+    margin: 0;
     background-color: #ffffff;
    }
 h1, h2, h3, h4, h5, h6{
@@ -22,7 +23,7 @@ a{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    background-color:#cacbd4;
+    /* background-color:#cacbd4; */
     }
 /* header */
 .header-container{
@@ -98,8 +99,13 @@ a{
     width: 1440px;
     height: 600px;
     margin: 0 auto;
+    padding-top: 188px;
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-bottom: 292px;
     background-color: #2e2f42;
 }
+
 .title .hero{
     font-weight: 700;
     font-size: 56px;
@@ -117,6 +123,11 @@ a{
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    margin-left: 164px;
+    margin-top: 48px;
+    border-radius: 4px;
     background-color: #4D5AE5;
     }
 .title .button-hero:hover,
